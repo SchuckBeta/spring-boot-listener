@@ -1,5 +1,6 @@
 package com.example.entity;
 
+import java.io.Serializable;
 import java.util.Date;
 
 /**
@@ -7,9 +8,17 @@ import java.util.Date;
  * @author chenh
  *
  */
-public class Message {
+public class Message implements Serializable{
+	private String title;
 	private String msg;
 	private Date time;
+
+	public String getTitle() {
+		return title;
+	}
+	public void setTitle(String title) {
+		this.title = title;
+	}
 	public String getMsg() {
 		return msg;
 	}

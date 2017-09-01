@@ -1,7 +1,7 @@
 package com.example.service;
 
-public interface EmailService {
-	public void sendEmail(Email email){
+import com.example.entity.Email;
 
-	}
+public interface EmailService {
+	public void sendEmail(Email email);
 }

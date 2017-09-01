@@ -9,10 +9,17 @@ import java.util.Date;
  *
  */
 public class Email implements Serializable{
+	private String title;
 	private String msg;
 	private Date time;
 	private String addr;
 
+	public String getTitle() {
+		return title;
+	}
+	public void setTitle(String title) {
+		this.title = title;
+	}
 	public String getAddr() {
 		return addr;
 	}

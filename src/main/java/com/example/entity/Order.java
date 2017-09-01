@@ -1,5 +1,6 @@
 package com.example.entity;
 
+import java.io.Serializable;
 import java.util.Date;
 
 /**
@@ -7,10 +8,10 @@ import java.util.Date;
  * @author chenh
  *
  */
-public class Order {
+public class Order implements Serializable{
 	private String name;
-	private Date time;
 	private String persion;
+	private Date time;
 	public String getName() {
 		return name;
 	}
