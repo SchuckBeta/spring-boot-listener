@@ -1,5 +1,5 @@
 # spring-boot-listener
-spring-boot-listener  Spring监听器
+spring-boot-listener  实现Spring 监听、观察者模式、事件驱动模型
 
 #
 ![image](https://github.com/SchuckBeta/spring-boot-listener/blob/master/screenshots/listener (1).png)
